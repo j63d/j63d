@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.jdr63"
-       name="[COLOR darkcyan]jdr63[/COLOR]"
-       version="1.1.1"
-       provider-name="jdr63">
+       name="[COLOR darkcyan]j63[/COLOR]"
+       version="1.1.2"
+       provider-name="j63">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -21,10 +21,16 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
+  
+      <extension point="xbmc.addon.repository" name="j63d repo">
+        <info>https://raw.githubusercontent.com/j63d/j63d/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/j63d/j63d/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/j63d/master/Repositorio/</datadir>
+    </extension>
 
   <extension point="xbmc.addon.metadata">
     <summary>Creado por jdr63</summary>
-    <description>jdr63 2017</description>
+    <description>j63 2020</description>
     <platform>all</platform>
   </extension>
 </addon>
